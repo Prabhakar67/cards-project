@@ -16,6 +16,7 @@
             flex-direction: column;
             justify-content: center;
             background-color: lemonchiffon;
+            border-radius: 10px;
         }
         .container {
             text-align: center;
@@ -26,6 +27,7 @@
         }
         .card:hover{
             cursor: pointer;
+            background-color: rgb(101, 209, 209);
         }
 
         ul.nav {
