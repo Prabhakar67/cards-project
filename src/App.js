@@ -1,14 +1,23 @@
+import { Routes,Router,Route,BrowserRouter,Link } from 'react-router-dom';
 import './App.css';
-import Card from './components/Card';
-import Footer from './components/Footer';
-import Navbar from './components/navbar';
+import About from './components/About';
+import Contact from './components/Contact.js';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Card/>
-      <Footer/>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route  index element={<Home/>} />
+          <Route exact path="About" element={<About/>} />
+          <Route exact path="Contact" element={<Contact/>} />
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
