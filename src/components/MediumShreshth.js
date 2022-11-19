@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-function About() {
+function MediumShreshth() {
     let shreshthArray = ['Sanket Sir', 'Vishal Sir', 'Pandurang Sir', 'Abhijeet Sir','Pragati Madam']
     return (
         <div>
@@ -13,4 +13,4 @@ function About() {
     );
 }
 
-export default About;
+export default MediumShreshth;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-function Home() {
+function AtiShreshth() {
     const AtiShreshthArray = ['Siddhesh Saheb', 'Yogesh Saheb', 'Aditya Saheb', 'Nikhil Saheb']
     return (
         <div> 
@@ -12,4 +12,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default AtiShreshth;

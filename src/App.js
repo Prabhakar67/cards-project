@@ -1,8 +1,8 @@
-import { Routes,Router,Route,BrowserRouter,Link } from 'react-router-dom';
+import { Routes,Router,Route,BrowserRouter } from 'react-router-dom';
 import './App.css';
-import About from './components/About';
-import Contact from './components/Contact.js';
-import Home from './components/Home';
+import MediumShreshth from './components/MediumShreshth';
+import Atituchh from './components/AtiTuchh.js';
+import AtiShreshth from './components/AtiShreshth';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
 
@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route  index element={<Home/>} />
-          <Route exact path="About" element={<About/>} />
-          <Route exact path="Contact" element={<Contact/>} />
+          <Route  index element={<AtiShreshth/>} />
+          <Route exact path="MediumShreshth" element={<MediumShreshth/>} />
+          <Route exact path="Atituchh" element={<Atituchh/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
