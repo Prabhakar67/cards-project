@@ -2,7 +2,7 @@
 
 ## Available Scripts
 
-1st thing gto do
+1st thingg to do
 
 ### `npm i`
 
